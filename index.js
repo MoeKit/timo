@@ -1,12 +1,11 @@
 module.exports = friendlyTime = function (time) {
     time = new Date(time).getTime();
-    console.log(time);
     if (!time) {
         return '';
     }
     var nt = (new Date().getTime() );
     var ut = time;
-    var vt = (nt - ut)/1000;
+    var vt = (nt - ut) / 1000;
     if (vt <= 0) {
         return '刚刚';
     }
