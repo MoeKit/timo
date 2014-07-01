@@ -3,6 +3,8 @@
 ---
 
 [![spm version](http://moekit.com/badge/timo)](http://moekit.com/package/timo)
+[![Build Status](https://img.shields.io/travis/MoeKit/timo.svg)](https://travis-ci.org/MoeKit/timo)
+[![Coverage Status](https://img.shields.io/coveralls/MoeKit/timo.svg)](https://coveralls.io/r/MoeKit/timo)
 
 轻量的时间helper
 
