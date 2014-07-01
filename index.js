@@ -1,5 +1,5 @@
 //@todo add simple time format function
-module.exports = friendlyTime = function (time) {
+exports.friendlyTime = function (time) {
     time = new Date(time).getTime();
     if (!time) {
         return '';

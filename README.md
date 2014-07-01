@@ -1,21 +1,27 @@
-# friendly-time
+# Timo
 
 ---
 
-[![spm version](http://moekit.com/badge/friendly-time)](http://spmjs.io/package/friendly-time)
+[![spm version](http://moekit.com/badge/timo)](http://moekit.com/package/timo)
 
-如果只是要实现相对时间计算，而不想要引用庞大的 `moment`的话，就用这个简单的函数吧。
+轻量的时间helper
+
+如果只是要实现相对时间计算，而不想要引用庞大的 `moment`的话，使用函数 `timo.friendlyTime`
 
 ---
 
 
+## 使用
 
-## Usage
+### friendlyTime
+相对时间计算
 
 ```js
-var friendlyTime = require('friendly-time');
-friendTime(new Date());
+define(function(require){
+    var friendlyTime = require('index').friendlyTime;
+    console.log(friendlyTime(new Date)): // 刚刚
+});
 ```
 
-
-
+### 时间格式化
+骚等，未发布
