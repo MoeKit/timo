@@ -1,4 +1,4 @@
-//@todo add simple time format function
+exports.format = require('./src/format');
 exports.friendlyTime = function (time) {
     time = new Date(time).getTime();
     if (!time) {
